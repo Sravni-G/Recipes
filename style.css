@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 #search {
   margin-left: 25%;
   margin-right: 25%;
@@ -8,7 +11,7 @@
   margin-right: 0px;
   height: 40px;
   width: 350px;
-  border: solid 2px rgb(180, 32, 64);
+  border: 2px solid rgb(106, 192, 190);
   background-color: aliceblue;
   border-radius: 5px;
   text-align: center;
@@ -16,7 +19,7 @@
 #search-button {
   height: 40px;
   width: 100px;
-  border: solid 2px rgb(180, 32, 64);
+  border: 2px solid rgb(106, 192, 190);
   border-radius: 5px;
   background-color: aliceblue;
   color: rgb(148, 105, 30);
@@ -37,8 +40,8 @@
   background-color: red;
 } */
 #heading {
-  color: rgb(148, 105, 30);
-  text-shadow: 2px 2px red;
+  color: rgb(60, 122, 130);
+  text-shadow: 2px 2px rgb(88, 124, 131);
 }
 ::placeholder {
   color: rgb(148, 105, 30);
@@ -101,7 +104,8 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  margin-left: 30px;
+  margin-left: 100px;
+  margin-right: -20px;
   flex-direction: row;
 }
 .card {
@@ -110,12 +114,15 @@ button {
 }
 .card img {
   width: 70%;
+  border: 2px solid rgb(106, 192, 190);
+  border-radius: 5px;
 }
 #showFavMealList {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  margin-left: 40px;
+  margin-left: 100px;
+  margin-right: -20px;
   flex-direction: row;
 }
 .moreDetails {

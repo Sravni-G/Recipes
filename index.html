@@ -11,7 +11,8 @@
   <script src="https://kit.fontawesome.com/6de016a02d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="row">
+  <!-- Navigation menu to navigate to home and favourites -->
+  <nav class="row">
     <div class="col-md-2" id="home">
       <a href="#" onclick="showMeals()"><i class="fa-solid fa-house"></i></a>
     </div>
@@ -21,8 +22,8 @@
     <div class="col-md-2 text-right" id="fav">
       <a  href="#" onclick="showFavMeals()" ><i class="fa-sharp fa-solid fa-heart"></i></a>
     </div>
-  </div>
-
+  </nav>
+  <!-- this is main part where we display the search button for searching meals and displaying them -->
   <main>
     <div id="search">
       <input type="text" id="my-meal" placeholder="Enter Meal here........."></input>
@@ -33,7 +34,7 @@
   </main>
 
 
-
+  <!-- I have attached the javascript file here using script tag and src attribute -->
   <script src="script.js"></script>
   
   
