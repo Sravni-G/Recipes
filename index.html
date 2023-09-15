@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css"></link>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/6de016a02d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="row">
+    <div class="col-md-2" id="home">
+      <a href="#" onclick="showMeals()"><i class="fa-solid fa-house"></i></a>
+    </div>
+    <div class="col-md-8" id="heading">
+      <h1 class="text-center">Let's Cook Something New For Loved Ones</h1>
+    </div>
+    <div class="col-md-2 text-right" id="fav">
+      <a  href="#" onclick="showFavMeals()" ><i class="fa-sharp fa-solid fa-heart"></i></a>
+    </div>
+  </div>
+
+  <main>
+    <div id="search">
+      <input type="text" id="my-meal" placeholder="Enter Meal here........."></input>
+      <button onclick="showMeals()" id="search-button">Search</button>
+    </div>
+    <div id="showMeals"></div>
+    <div id="showFavMealList"></div>
+  </main>
+
+
+
+  <script src="script.js"></script>
+  
+  
+</body>
+</html>

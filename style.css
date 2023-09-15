@@ -1,0 +1,132 @@
+#search {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+#my-meal {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-right: 0px;
+  height: 40px;
+  width: 350px;
+  border: solid 2px rgb(180, 32, 64);
+  background-color: aliceblue;
+  border-radius: 5px;
+  text-align: center;
+}
+#search-button {
+  height: 40px;
+  width: 100px;
+  border: solid 2px rgb(180, 32, 64);
+  border-radius: 5px;
+  background-color: aliceblue;
+  color: rgb(148, 105, 30);
+}
+.mealImg {
+  margin-left: 100px;
+  width: 300px;
+  height: 300px;
+  border: solid 2px rgb(180, 32, 64);
+  border-radius: 5px;
+}
+.mealText {
+  margin-top: 100px;
+}
+/* #favourites {
+  color: white;
+  border: 2px solid black;
+  background-color: red;
+} */
+#heading {
+  color: rgb(148, 105, 30);
+  text-shadow: 2px 2px red;
+}
+::placeholder {
+  color: rgb(148, 105, 30);
+}
+.fa-solid.fa-house,
+.fa-sharp.fa-solid.fa-heart {
+  font-size: 30px; /* Adjust the size as needed */
+  margin-top: 25px;
+}
+.fa-solid.fa-house {
+  color: rgb(40, 22, 22);
+  margin-left: 10px;
+}
+.fa-sharp.fa-solid.fa-heart {
+  color: red;
+  margin-right: 10px;
+}
+.fa-solid.fa-heart,
+.fa-regular.fa-heart {
+  color: red;
+}
+button {
+  background-color: white;
+  border: none;
+  color: none;
+}
+.row {
+  background-color: aliceblue;
+}
+.meal-id {
+  display: none;
+}
+#favMealImg {
+  margin-left: 100px;
+  width: 150px;
+  height: 150px;
+  border: solid 2px rgb(180, 32, 64);
+  border-radius: 5px;
+}
+#no-fav {
+  text-align: center;
+  margin-top: 10%;
+  color: rgb(40, 72, 101);
+  font-size: 50px;
+}
+#no-fav i {
+  height: 50px;
+  width: 50px;
+  color: rgb(151, 76, 76);
+}
+/* .meal-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+ */
+
+#showMeals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 30px;
+  flex-direction: row;
+}
+.card {
+  width: calc(33%);
+  margin-bottom: 30px;
+}
+.card img {
+  width: 70%;
+}
+#showFavMealList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 40px;
+  flex-direction: row;
+}
+.moreDetails {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+.moreDetails h2 {
+  color: rgb(99, 195, 119);
+  margin-top: 10%;
+}
+.moreDetails p {
+  color: rgb(55, 93, 117);
+}
